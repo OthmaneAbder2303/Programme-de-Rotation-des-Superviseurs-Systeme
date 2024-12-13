@@ -1,6 +1,8 @@
 package ma.ensa.programmederotationdessuperviseurssysteme.models;
 
 import lombok.*;
+
+import java.util.Set;
 import java.util.Objects;
 
 @Getter
@@ -15,6 +17,15 @@ public class Membre {
     private String prenom;
     private String email;
     private String phone;
+    private Set<Incident> incidents;
+
+    public Membre(String id, String nom, String prenom, String email, String phone) {
+        this.id = id;
+        this.nom = nom;
+        this.prenom = prenom;
+        this.email = email;
+        this.phone = phone;
+    }
 
     @Override
     public boolean equals(Object o) {

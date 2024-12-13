@@ -13,5 +13,6 @@ public class Incident {
     private String reference;
     private Date time;
     private String status;
+    private Membre membre;
 
 }

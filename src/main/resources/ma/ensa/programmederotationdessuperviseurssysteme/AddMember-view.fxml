@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="CENTER" hgap="10" prefHeight="269.0" prefWidth="258.0" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="ma.ensa.programmederotationdessuperviseurssysteme.controllers.AddMemberController">
+    <padding>
+        <Insets bottom="20" left="20" right="20" top="20" />
+    </padding>
+
+    <!-- Labels -->
+    <Label text="Nom:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <Label text="Prénom:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <Label text="Téléphone:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+
+    <!-- Input Fields -->
+    <TextField fx:id="nomField" promptText="Entrez le nom" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <TextField fx:id="prenomField" promptText="Entrez le prénom" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <TextField fx:id="emailField" promptText="Entrez l'email" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <TextField fx:id="phoneField" promptText="Entrez le numéro de téléphone" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+    <!-- Add Button -->
+    <Button fx:id="addButton" text="Ajouter Membre" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
