@@ -19,4 +19,9 @@ public class MembreDaoImp implements MembreDao {
     public Set<Membre> chargerListIncidents() {
         return membres;
     }
+
+    @Override
+    public Set<Membre> getAllMembres() {
+        return membres;
+    }
 }

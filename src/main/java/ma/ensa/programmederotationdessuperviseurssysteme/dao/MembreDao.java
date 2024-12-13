@@ -8,5 +8,6 @@ public interface MembreDao {
 
     public void inserer(Membre membre);
     public Set<Membre> chargerListIncidents();
+    public Set<Membre> getAllMembres();
 
 }
