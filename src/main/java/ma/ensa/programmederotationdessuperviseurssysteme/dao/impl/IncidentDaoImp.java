@@ -5,6 +5,7 @@ import ma.ensa.programmederotationdessuperviseurssysteme.models.Incident;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 public class IncidentDaoImp implements IncidentDao {
 
@@ -13,6 +14,11 @@ public class IncidentDaoImp implements IncidentDao {
     @Override
     public void inserer(Incident incident) {
         incidents.add(incident);
+    }
+
+    @Override
+    public Set<Incident> getAllIncidents() {
+        return Set.of();
     }
 
 }
