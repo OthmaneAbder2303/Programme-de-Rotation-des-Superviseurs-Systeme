@@ -1,7 +1,7 @@
-package ma.ensa.programmederotationdessuperviseurssysteme.dao.impl;
+package ma.ensa.prog_rot.dao.impl;
 
-import ma.ensa.programmederotationdessuperviseurssysteme.dao.IncidentDao;
-import ma.ensa.programmederotationdessuperviseurssysteme.models.Incident;
+import ma.ensa.prog_rot.dao.IncidentDao;
+import ma.ensa.prog_rot.models.Incident;
 
 import java.util.ArrayList;
 import java.util.List;

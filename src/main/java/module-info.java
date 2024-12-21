@@ -1,10 +1,10 @@
-module ma.ensa.programmederotationdessuperviseurssysteme {
+module ma.ensa.prog_rot {
     requires javafx.controls;
     requires javafx.fxml;
     requires static lombok;
     requires java.sql;
 
 
-    opens ma.ensa.programmederotationdessuperviseurssysteme to javafx.fxml;
-    exports ma.ensa.programmederotationdessuperviseurssysteme;
+    opens ma.ensa.prog_rot to javafx.fxml;
+    exports ma.ensa.prog_rot;
 }

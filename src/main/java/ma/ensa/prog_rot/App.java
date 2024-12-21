@@ -1,9 +1,9 @@
-package ma.ensa.programmederotationdessuperviseurssysteme;
+package ma.ensa.prog_rot;
 
-import ma.ensa.programmederotationdessuperviseurssysteme.dao.MembreDao;
-import ma.ensa.programmederotationdessuperviseurssysteme.dao.impl.MembreDaoImp;
-import ma.ensa.programmederotationdessuperviseurssysteme.models.Membre;
-import ma.ensa.programmederotationdessuperviseurssysteme.utils.MembreCsvImporter;
+import ma.ensa.prog_rot.dao.MembreDao;
+import ma.ensa.prog_rot.dao.impl.MembreDaoImp;
+import ma.ensa.prog_rot.models.Membre;
+import ma.ensa.prog_rot.utils.MembreCsvImporter;
 
 import java.util.Set;
 

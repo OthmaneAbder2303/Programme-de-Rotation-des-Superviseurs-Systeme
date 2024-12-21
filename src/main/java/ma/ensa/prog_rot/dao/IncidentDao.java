@@ -1,5 +1,5 @@
-package ma.ensa.programmederotationdessuperviseurssysteme.dao;
-import ma.ensa.programmederotationdessuperviseurssysteme.models.Incident;
+package ma.ensa.prog_rot.dao;
+import ma.ensa.prog_rot.models.Incident;
 
 import java.util.Set;
 

@@ -1,14 +1,12 @@
-package ma.ensa.programmederotationdessuperviseurssysteme.controllers;
+package ma.ensa.prog_rot.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import ma.ensa.programmederotationdessuperviseurssysteme.dao.MembreDao;
-import ma.ensa.programmederotationdessuperviseurssysteme.dao.impl.MembreDaoImp;
-import ma.ensa.programmederotationdessuperviseurssysteme.models.Membre;
-
-import java.util.Set;
+import ma.ensa.prog_rot.dao.MembreDao;
+import ma.ensa.prog_rot.dao.impl.MembreDaoImp;
+import ma.ensa.prog_rot.models.Membre;
 
 public class AddMemberController {
 

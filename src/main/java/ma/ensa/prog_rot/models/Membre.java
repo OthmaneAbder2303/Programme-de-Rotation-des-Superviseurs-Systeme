@@ -1,4 +1,4 @@
-package ma.ensa.programmederotationdessuperviseurssysteme.models;
+package ma.ensa.prog_rot.models;
 
 import lombok.*;
 

@@ -1,7 +1,7 @@
-package ma.ensa.programmederotationdessuperviseurssysteme.dao.impl;
+package ma.ensa.prog_rot.dao.impl;
 
-import ma.ensa.programmederotationdessuperviseurssysteme.dao.MembreDao;
-import ma.ensa.programmederotationdessuperviseurssysteme.models.Membre;
+import ma.ensa.prog_rot.dao.MembreDao;
+import ma.ensa.prog_rot.models.Membre;
 
 import java.util.HashSet;
 import java.util.Set;

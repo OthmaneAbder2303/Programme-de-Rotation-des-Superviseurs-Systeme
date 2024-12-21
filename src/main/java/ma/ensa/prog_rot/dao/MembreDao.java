@@ -1,6 +1,6 @@
-package ma.ensa.programmederotationdessuperviseurssysteme.dao;
+package ma.ensa.prog_rot.dao;
 
-import ma.ensa.programmederotationdessuperviseurssysteme.models.*;
+import ma.ensa.prog_rot.models.*;
 
 import java.util.Set;
 
